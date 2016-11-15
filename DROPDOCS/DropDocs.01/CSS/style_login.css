@@ -1,0 +1,222 @@
+.join {
+    
+    color: #222;
+    font-size: 44px;
+    font-weight:900;
+    float: center;
+    position: relative;
+    bottom: 50px;
+    text-shadow: 1px 0 1px #777;
+    text-align: center;
+
+}
+
+.login-options {
+    margin-top: 15px;
+    color: #9c9c9c;
+    margin-bottom: 25px;
+}
+body {
+	background: #2ca1cc;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #777;
+	font-weight:300;
+	font-size: 16px;
+}
+#wrapper {
+	margin: 10px auto;
+	width: 940px;
+	height:550px;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	padding: 40px;
+
+}
+.info {
+    position: relative;
+    top:50px;
+    left: -40px;
+    margin: 50px;
+    width: 440px;
+    height:340px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    padding: 40px;
+
+}
+
+
+    .info h5{
+        margin-left: -20px;
+        margin-top: -25px;
+    }
+
+.forms {
+    position: relative;
+    left: 600px;
+	width:270px;
+    top:-480px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ccc;
+}
+.forms input {
+	border: 1px solid #d9d9d9 !important;
+    width: 200px;
+    border-radius: 7px;
+	color: #bebebe;
+	padding: 7px 0px 7px 50px;
+	outline:none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+	margin-bottom: 15px;
+}
+.forms input:focus {
+    box-shadow: 0 0 5px rgba(48, 168, 218, 1);
+    -webkit-box-shadow: 0 0 5px rgba(48, 168, 218, 1); 
+    -moz-box-shadow: 0 0 5px rgba(48, 168, 218, 1);
+    border:1px solid rgba(48, 168, 218, 1) !important; 
+}
+.forms #username {
+	background:url("http://i.imgur.com/n6engUt.png") no-repeat left center;
+	background-position: 10px 5px;
+	border-right: 1px solid #f1f1f1;
+}
+.forms #mail {
+	background:url("http://i.imgur.com/xCWr97f.png") no-repeat left center;
+	background-position: 10px 10px;
+	border-right: 1px solid #f1f1f1;
+}
+.forms #password {
+	background:url("http://i.imgur.com/69UwNcl.png") no-repeat left center;
+	background-position: 10px 5px;
+	border-right: 1px solid #f1f1f1;
+}
+
+.create-acc {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding: 4px 8px;
+    border: 0px solid #b96529;
+    border-radius: 2px;
+    background: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+    color: #000000;
+    text-decoration: none;
+	height: 20px;
+    width: 50px;
+	margin-top: 20==18px;
+    position: relative;
+    left: 20px;
+    
+}
+.create-acc:hover,
+.create-acc:focus {
+    border: 0px solid #e77e33;
+    background: #db7830;
+    color: #ffffff;
+    text-decoration: none;
+}
+.create-acc:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8b4c1f), to(#e77e33));
+    background: -moz-linear-gradient(top, #8b4c1f, #e77e33);
+    background: linear-gradient(to bottom, #8b4c1f, #e77e33);
+}
+.create-acc:after{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+	padding-left: 8px;
+    top: -10px;
+    right: -15px;
+	-webkit-border-radius: 0px 8px 8px 0px;
+	-moz-border-radius: 0px 8px 8px 0px;
+	-o-border-radius: 0px 8px 8px 0px;
+	-ms-border-radius: 0px 8px 8px 0px;
+	border-radius: 0px 8px 8px 0px;
+}
+
+
+
+.create-acc1 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding: 4px 8px;
+    border: 0px solid #b96529;
+    border-radius: 2px;
+    background: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    color: #000000;
+    text-decoration: none;
+    height: 20px;
+    width: 80px;
+    margin-top: 20==18px;
+    position: relative;
+    top:px;
+    left: 60px;
+    
+}
+.create-acc1:hover,
+.create-acc1:focus {
+    border: 0px solid #e77e33;
+    background: #db7830;
+    color: #ffffff;
+    text-decoration: none;
+}
+.create-acc1:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8b4c1f), to(#e77e33));
+    background: -moz-linear-gradient(top, #8b4c1f, #e77e33);
+    background: linear-gradient(to bottom, #8b4c1f, #e77e33);
+}
+.create-acc1:after{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    padding-left: 10px;
+    top: -10px;
+    right: -15px;
+    background-size: 8px 11px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+
+.footer {
+  width: 610px;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: -40px
+}
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
